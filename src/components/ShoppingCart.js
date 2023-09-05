@@ -19,8 +19,8 @@ const ShoppingCart = (props) => {
 
   return (
     <div>
-      {cart.map((item, key) => (
-        <Item key={key} id={item.id} {...item} />
+      {cart.map((item, ind) => (
+        <Item key={ind} order={ind} {...item} />
       ))}
 
       <ScCartCheckout>
