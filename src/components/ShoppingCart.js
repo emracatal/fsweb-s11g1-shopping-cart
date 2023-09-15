@@ -3,7 +3,6 @@ import { ScCartCheckout } from "./scParts";
 import { CartContext } from "../contexts/CartContext";
 import { useContext } from "react";
 
-// Components
 import Item from "./ShoppingCartItem";
 
 const ShoppingCart = (props) => {
@@ -32,3 +31,4 @@ const ShoppingCart = (props) => {
 };
 
 export default ShoppingCart;
+ 
